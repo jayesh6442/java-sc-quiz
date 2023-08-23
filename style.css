@@ -1,0 +1,98 @@
+*{
+margin:0%;
+padding:0%;
+box-sizing: border-box;
+font-size: 16px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html,body
+{
+width:100%;
+height:100%;
+}
+.quiz{
+    background-color: rgb(114, 114, 197);
+    padding: 30px;
+}
+.headin{
+    margin: 12px 40px auto;
+}
+.headin .title{
+    font-size: 30px;
+    flood-color: aliceblue;
+    text-align: center ;
+    color:  wheat;
+}
+.headin .subtitle{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.result{
+    text-align: center;
+    min-width:350px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+   
+    max-width: 400px;
+}
+.result p:first-child{
+    padding: 10px 20px;
+
+}
+.hide{
+    display: none;
+}
+.result button{
+    border-color: red;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+    border:  none;
+    cursor: pointer;
+}
+.result button:hover{
+    background-color: black;
+    color: white;
+}
+.quiz-form{
+    margin: auto;
+    max-width: 1000px;
+}
+.question{
+    background-color: #fff;
+   border-color: white;
+   padding: 10px 20px;
+   border-radius: 10px;
+   margin: 20px 0px;
+
+}
+.question > *{
+    font-size: 18px;
+
+}
+.option{
+    margin-left: 10px;
+}
+.submit input{
+    background-color: black;
+    padding: 5px 25px;
+    color: white;
+    font-size: 12px;
+    border-radius: 13px;
+    border: none;
+    cursor: pointer;
+
+}
+.correct{
+    background-color: rgb(152, 152, 203);
+}
+.wrong{
+  background-color: rgb(210, 162, 162);
+}
+.submit{
+    text-align: center;
+}
